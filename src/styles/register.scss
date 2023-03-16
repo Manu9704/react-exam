@@ -1,0 +1,66 @@
+.Register{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+    background-image: url("https://img.lovepik.com/background/20211022/large/lovepik-purple-geometric-lines-background-image_401732169.jpg");
+    .regblock{
+        width: 96%;
+        height:78%;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color:white;
+        box-shadow: 0 0 8px 3px rgb(139, 139, 139);
+        .regform{
+            width: 40%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-evenly;
+            background-color: white;
+            h2{
+                width: 90%;
+                text-align: left;
+            }
+            label{
+                width: 90%;
+                text-align: left;
+                margin: .25rem;
+                font-weight: 500;
+            }
+            input{
+                border: 1px solid rgb(89, 89, 89);
+                border-radius: 10px;
+                width: 90%;
+                outline: none;
+                height: 2.5rem;
+                padding-left: 1rem;
+            }
+            .logreg{
+                display: flex;
+                align-items: center;
+            }
+            button{
+                width: 90%;
+                font-size: 1.02rem;
+                height: 2.5rem;
+                border-radius: 10px;
+                background-color: rgb(87, 39, 191);
+                color: white;
+                border: none;
+                margin: .5rem;
+                margin-top: 1rem;
+                font-weight: 600;
+            }
+        }
+        img{
+            width: 60%;
+            height: 100%;
+            padding: 1rem;
+        }
+    }
+}
